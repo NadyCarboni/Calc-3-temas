@@ -1,0 +1,46 @@
+.calculator {
+    height: 90vh;
+}
+
+input {
+    height: 5rem;
+    width: 100%;
+}
+
+.numbers-calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+      "seven eight nine del"
+      "four five six plus"
+      "three two one minus "
+      "dot zero divide mult  "
+      "reset reset equal equal";
+     margin: 10px auto;
+     justify-content: center;
+     height: 30vh;
+     
+  }
+
+  .numbers-calc div {
+      background-color: bisque ;
+      cursor: pointer;
+      text-align: center;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .reset {
+      grid-area: reset;
+  }
+
+  .equal {
+    grid-area: equal;
+}
+
+
+
