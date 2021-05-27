@@ -28,6 +28,22 @@
   --t2-text-dark: hsl(60, 10%, 19%);
   --t2-text-light: hsl(0, 0, 100%) ;
 
+  /* Theme 3 */
+
+  --t3-main-bg:hsl(268, 75%, 9%);
+  --t3-toggle-and-keyboard-bg: hsl(268, 71%, 12%);
+  --t3-screen-bg: hsl(268, 71%, 12%);
+  --t3-key-bg-del-and-reset: hsl(281, 89%, 26%) ;
+  --t3-key-shadow-del-and-reset: hsl(285, 91%, 52%) ;
+  --t3-key-bg-equal: hsl(176, 100%, 44%)  ;
+  --t3-key-shadow-equal:  hsl(177, 92%, 70%) ;
+  --t3-key-bg-most: hsl(268, 47%, 21%);
+  --t3-key-shadow-most: hsl(290, 70%, 36%) ;
+  --t3-text-dark: hsl(198, 20%, 13%);
+  --t3-text-light: hsl(0, 0, 100%); ;
+  --t3-yellow-light: hsl(52, 100%, 62%) ;
+
+
 }
 
 
